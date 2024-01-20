@@ -4,7 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media quary</title>
-    
+    <style>
+        *{
+    margin: 0%;
+    padding: 0%;
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    text-shadow: 3px 3px 0px #1516a7;
+    padding: 10px;
+}
+@media screen and (orientation: portrait) {
+    body {
+    background-image: url(../mq3/imagens/cev-portrait.jpg);
+    background-position: center bottom;
+    }
+}
+@media screen and (orientation: landscape) {
+    body {
+    background-image: url(../mq3/imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
+}
     </style>
 </head>
 <body>
