@@ -56,9 +56,34 @@ form > div.campo {
     height: 40px;
     border-radius: 7px;
     margin: 5px 0px;
+    border: 2px solid rgb(3, 139, 3, 0.884);
+
+}
+div.campo > span {
+    color: white;
+    background-color: black;
+    font-size: 1.9em; 
+    width: 38px;
+    padding: 5px;
+    border-radius: 7px;
+    height: 37px;
+}
+div.campo > input {
+    background-color: rgba(26, 255, 0, 0.671);
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    transform: translatey(-12px);
+    border: 0px;
+    border-radius: 7px;
+    padding: 4px;
+}
+div.campo > input:focus-within{
+    background-color: white;
+    border: none;
 }
 div.campo > label {
-    display: none;
+    display: block;
 }
 form > input[type=submit] {
     display: block;
@@ -69,7 +94,7 @@ form > input[type=submit] {
     border: 1px solid rgb(3, 139, 3, 0.884);
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     cursor: pointer;
 }
 form > input[type=submit]:hover {
