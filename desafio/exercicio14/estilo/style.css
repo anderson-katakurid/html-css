@@ -57,16 +57,17 @@ form > div.campo {
     border-radius: 7px;
     margin: 5px 0px;
     border: 2px solid rgb(3, 139, 3, 0.884);
-
 }
 div.campo > span {
     color: white;
-    background-color: black;
     font-size: 1.9em; 
     width: 38px;
     padding: 5px;
     border-radius: 7px;
     height: 37px;
+}
+div.campo > label {
+    display: none;
 }
 div.campo > input {
     background-color: rgba(26, 255, 0, 0.671);
@@ -77,13 +78,11 @@ div.campo > input {
     border: 0px;
     border-radius: 7px;
     padding: 4px;
+    
 }
 div.campo > input:focus-within{
     background-color: white;
     border: none;
-}
-div.campo > label {
-    display: block;
 }
 form > input[type=submit] {
     display: block;
