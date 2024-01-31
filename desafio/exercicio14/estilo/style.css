@@ -72,12 +72,13 @@ div.campo > label {
 div.campo > input {
     background-color: rgba(26, 255, 0, 0.671);
     font-size: 1em;
-    width: calc(100% - 44px);
     height: 100%;
     border: 0px;
     border-radius: 7px;
     padding: 4px;
     transform: translatey(-12px);
+    width: calc(100% - 43px);
+    
 }
 div.campo > input:focus-within{
     background-color: white;

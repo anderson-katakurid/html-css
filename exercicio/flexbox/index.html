@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+        .container {
+            height: 50vh;
+            background-color: yellow;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+        .item {
+            width: 150px;
+            height: 460px;
+            background-color: pink;
+        }
+        #conteudo {
+            flex-basis: 50%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="conteudo">
+            <h1>item1</h1>
+        </div>
+        <div class="item">
+            <h1>item2</h1>
+        </div>
+        <div class="item">
+            <h1>item3</h1>
+        </div>
+        <div class="item">
+            <h1>item1</h1>
+        </div>
+        <div class="item">
+            <h1>item2</h1>
+        </div>
+        <div class="item">
+            <h1>item3</h1>
+        </div>
+        <div class="item">
+            <h1>item1</h1>
+        </div>
+        <div class="item">
+            <h1>item2</h1>
+        </div>
+        <div class="item">
+            <h1>item3</h1>
+        </div>
+    </div>
+</body>
+</html>
